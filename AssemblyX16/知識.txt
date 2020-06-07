@@ -1,0 +1,5 @@
+v1 db 7, 3, 6, 5, 2, 0, 7, 0, 0, 0, 1, 0
+db為記憶體位置可存入si
+[si]可設定值(inc si方便使用)
+[db + index]也可
+byte ptr[db]轉為byte存入

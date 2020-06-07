@@ -1,0 +1,413 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Microsoft JhengHei';
+}
+
+#title-div {
+    width: calc(100% - 20px);
+    text-align: center;
+    padding: 10px;
+    background: #ffca00;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+#content-div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    float: left;
+    width: calc(100% - 20px);
+}
+
+#search-div {
+    width: 100%;
+}
+
+    #search-div .search-input {
+        border-radius: 5px;
+        padding: 10px;
+        width: calc(100% - 70px);
+        margin-top: 8px;
+        font-size: 17px;
+        border: 1px solid #ccc;
+    }
+
+        #search-div .search-input:focus {
+            outline: none;
+            border-color: #3ac3ff;
+            box-shadow: 0 0 10px #3ac3ff;
+        }
+
+
+    #search-div .search-button {
+        float: right;
+        margin-right: 10px;
+        margin-top: 15px;
+        cursor: pointer;
+        content: url(/Image/search.png);
+        width: 25px;
+        height: 25px;
+    }
+
+        #search-div .search-button:hover {
+            content: url(/Image/search_1.png);
+        }
+
+.hide {
+    display: none;
+}
+
+.tab-content h3 span {
+    float: left;
+}
+
+.tab-content h3 img {
+    margin-left: 5px;
+    float: left;
+}
+
+.tab-content .plus {
+    cursor: pointer;
+    content: url(/Image/plus.png);
+    width: 25px;
+    height: 25px;
+}
+
+    .tab-content .plus:hover {
+        content: url(/Image/plus_1.png);
+    }
+
+#group_list_div {
+    width: 100%;
+}
+
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+
+.col-6 {
+    width: 50%;
+    float: left;
+    height: 100%;
+    margin-top: 5px;
+}
+
+
+    .col-6:first-child {
+        width: calc(50% - 5px);
+        margin-right: 5px;
+        margin-left: 0px;
+        margin-top: 0px;
+        float: left;
+    }
+
+    .col-6:last-child {
+        width: calc(50% - 5px);
+        margin-right: 0px;
+        margin-left: 5px;
+        float: left;
+    }
+
+    .col-6:nth-child(2) {
+        margin-top: 0px;
+    }
+
+.col-3 {
+    width: calc(25% - 10px);
+    float: left;
+    height: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+    .col-3:nth-child(4n - 3) {
+        width: calc(25% - 5px);
+        margin-right: 5px;
+        margin-left: 0px;
+        float: left;
+    }
+
+    .col-3:nth-child(4n) {
+        width: calc(25% - 5px);
+        margin-right: 0px;
+        margin-left: 5px;
+        float: left;
+    }
+
+    .col-3:nth-child(1), .col-3:nth-child(2), .col-3:nth-child(3), .col-3:nth-child(4) {
+        margin-top: 0px;
+    }
+
+#content-div .list-item {
+    border: 1px solid #c8c8c8;
+    padding: 10px;
+    width: calc(100% - 22px);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    float: left;
+}
+
+    #content-div .list-item.button-1 {
+        width: calc(100% - 64.5px);
+    }
+
+    #content-div .list-item.button-2 {
+        width: calc(100% - 107px);
+    }
+
+    #content-div .list-item:hover {
+        background: #eeeeee;
+    }
+
+    #content-div .list-item .img {
+        float: left;
+        width: 40px;
+        height: 40px;
+        border-radius: 25px;
+        border: 1px solid #808080;
+        padding: 5px;
+    }
+
+    #content-div .list-item .center-lab {
+        line-height: 50px;
+        margin-left: 8px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    #content-div .list-item .top-lab {
+        margin-left: 8px;
+        top: 13px;
+        position: absolute;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    #content-div .list-item .bottom-lab {
+        margin-left: 8px;
+        top: 40px;
+        position: absolute;
+    }
+
+    #content-div .delete {
+        float: left;
+        line-height: 62px;
+        padding: 5px;
+        background: #ff5f5f;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+        #content-div .delete:hover {
+             background: #d85353;
+        }
+
+    #content-div .edit {
+        float: left;
+        line-height: 62px;
+        padding: 5px;
+        background: #e3d449;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+     #content-div .edit:hover {
+             background: #e3d449;
+        }
+
+
+#button-div {
+    z-index: 1000;
+}
+
+    #button-div .button {
+        width: calc(50% - 22px);
+        float: left;
+        border: 1px solid #dedede;
+        background: #fff;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+        #button-div .button:hover {
+            background: #f1f1f1;
+        }
+
+        #button-div .button.active {
+            border: 1px solid #dedede;
+            background: #3ac3ff;
+            color: #fff;
+        }
+
+            #button-div .button.active:hover {
+                background: #39b3e8;
+            }
+
+.input-text1 {
+    font-family: 'Microsoft JhengHei';
+    font-size: 18px;
+    width: calc(100% - 10px);
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px #75b3ff;
+}
+
+    .input-text1:focus {
+        outline: none;
+        border-color: #75b3ff;
+        box-shadow: 0 0 10px #75b3ff;
+    }
+
+.action-div {
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(128, 128, 128, 0.57);
+}
+
+    .action-div.hide {
+        display: none;
+    }
+
+    .action-div .content {
+        background: #fff;
+        padding: 20px;
+        width: 300px;
+        border-radius: 5px;
+    }
+
+    .action-div .button {
+        width: 100%;
+        float: left;
+        border-radius: 5px;
+        border: 1px solid #dedede;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+        color: #fff;
+    }
+
+.buttun-blue {
+    background: #3ac3ff;
+}
+
+    .buttun-blue:hover {
+        background: #31afe6;
+    }
+
+.buttun-red {
+    background: #ee3f3f;
+}
+
+    .buttun-red:hover {
+        background: #cc3838;
+    }
+
+.buttun-green {
+    background: #5fdb47;
+}
+
+    .buttun-green:hover {
+        background: #58c442;
+    }
+
+@media screen and (max-width: 1024px) {
+    .col-3 {
+        width: calc(33.3% - 10px);
+    }
+
+        .col-3:nth-child(4n - 3), .col-3:nth-child(4n) {
+            width: calc(33.3% - 10px);
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+
+        .col-3:nth-child(3n - 2) {
+            width: calc(33.3% - 10px);
+            margin-right: 5px;
+            margin-left: 0px;
+        }
+
+        .col-3:nth-child(3n) {
+            width: calc(33.3% - 10px);
+            margin-right: 0px;
+            margin-left: 5px;
+        }
+
+        .col-3:nth-child(4) {
+            margin-top: 10px;
+        }
+}
+
+@media screen and (max-width: 720px) {
+    .action-div .content {
+        width: calc(100% - 60px);
+    }
+
+    .col-3 {
+        width: calc(50% - 10px);
+    }
+
+        .col-3:nth-child(3n - 2), .col-3:nth-child(3n) {
+            width: calc(50% - 10px);
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+
+        .col-3:nth-child(2n - 1) {
+            width: calc(50% - 5px);
+            margin-right: 5px;
+            margin-left: 0px;
+        }
+
+        .col-3:nth-child(2n) {
+            width: calc(50% - 5px);
+            margin-right: 0px;
+            margin-left: 5px;
+        }
+
+        .col-3:nth-child(3) {
+            margin-top: 10px;
+        }
+
+    .col-6, .col-6:first-child, .col-6:last-child {
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+        .col-6:first-child {
+            margin-top: 0px;
+        }
+}
+
+@media screen and (max-width: 520px) {
+
+    .col-3, .col-3:nth-child(2n - 1), .col-3:nth-child(2n) {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+        .col-3:nth-child(2) {
+            margin-top: 10px;
+        }
+}

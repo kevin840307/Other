@@ -1,0 +1,35 @@
+;-----------砞﹚计计fun-----------------
+gn_d proc near
+		add si, (digit - 1)			;+digit簿程蔼计
+		mov cl, digit
+gn_dig:	cmp byte ptr[si], 0			;耞[si]锣byte琌单0 琌杠计-1
+		jbe dn_dig
+		cmp byte ptr[si], 9			;耞[si]锣byte琌ぃ9 琌杠计-1
+		ja dn_dig
+		jmp cmp_d
+dn_dig:	dec si
+		dec cl
+		jmp gn_dig
+		mov bl, cl
+cmp_d:	mov si, OFFSET big_d
+		mov di, OFFSET sma_d
+		cmp byte ptr[si], 0
+		je set_z
+		cmp cl, [si]				;ゑ癸ヘ玡计
+		ja big
+		jbe small
+		jmp num_p
+big:	mov al,  [si]
+		mov [di], al
+		mov [si], cl
+		jmp num_p
+small:	mov [di], cl
+		jmp num_p
+set_z:	mov [di], cl
+		mov [si], cl
+
+num_p:	
+
+		ret
+gn_d	endp
+;----------------------------------------

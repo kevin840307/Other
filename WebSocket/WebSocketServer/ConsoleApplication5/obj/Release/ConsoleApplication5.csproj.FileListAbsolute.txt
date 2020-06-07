@@ -1,0 +1,6 @@
+D:\VisualStudio\VisualStudioProject\WebSocketServer\ConsoleApplication5\bin\Release\ConsoleApplication5.exe.config
+D:\VisualStudio\VisualStudioProject\WebSocketServer\ConsoleApplication5\bin\Release\ConsoleApplication5.exe
+D:\VisualStudio\VisualStudioProject\WebSocketServer\ConsoleApplication5\bin\Release\ConsoleApplication5.pdb
+D:\VisualStudio\VisualStudioProject\WebSocketServer\ConsoleApplication5\obj\Release\ConsoleApplication5.exe
+D:\VisualStudio\VisualStudioProject\WebSocketServer\ConsoleApplication5\obj\Release\ConsoleApplication5.pdb
+D:\VisualStudio\VisualStudioProject\WebSocketServer\ConsoleApplication5\obj\Release\ConsoleApplication5.csprojResolveAssemblyReference.cache

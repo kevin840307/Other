@@ -1,0 +1,109 @@
+ABSR..............absr              ABSW..............absw
+COLOR.............color             DECAHEX...........decahex
+dir...............dir               DRAWBOX...........drawbox
+DRAWLINE..........drawline          DRAWLOAD..........drawload
+DRAWSAVE..........drawsave          GO................go
+hex2decb..........hex2decb          hex2decd..........hex2decd
+hex2decw..........hex2decw          HEXAHEX...........hexahex
+HEXDECP...........hexdecp           HEXHEXA...........hexhexa
+key...............key               LOAD..............load
+MOVSB0............movsb0            next..............next
+PCCLOSE...........pcclose           PCDELAY...........pcdelay
+PCOPEN............pcopen            print0............print0
+PRINTB............printb            PRINTW............printw
+SAVE..............save              set...............set
+SET2..............set2              WORD16............word16
+WORD24............word24            
+
+decahex           Offset: 00000010H  Code and data size: 29H
+  DECAHEX         
+
+hexahex           Offset: 000000c0H  Code and data size: 1fH
+  HEXAHEX         
+
+pcopen            Offset: 00000170H  Code and data size: 1bH
+  PCOPEN          
+
+pcdelay           Offset: 00000210H  Code and data size: cH
+  PCDELAY         
+
+pcclose           Offset: 000002b0H  Code and data size: 7H
+  PCCLOSE         
+
+word24            Offset: 00000340H  Code and data size: 275H
+  WORD24          
+
+drawbox           Offset: 00000740H  Code and data size: 51H
+  DRAWBOX         
+
+drawline          Offset: 00000880H  Code and data size: 51H
+  DRAWLINE        
+
+drawsave          Offset: 000009b0H  Code and data size: 45H
+  DRAWSAVE        
+
+drawload          Offset: 00000ae0H  Code and data size: 45H
+  DRAWLOAD        
+
+color             Offset: 00000c10H  Code and data size: 25H
+  COLOR           
+
+load              Offset: 00000cc0H  Code and data size: 22H
+  LOAD            
+
+save              Offset: 00000d60H  Code and data size: 22H
+  SAVE            
+
+set2              Offset: 00000e00H  Code and data size: 24H
+  SET2            
+
+go                Offset: 00000ea0H  Code and data size: 43H
+  GO              
+
+hexdecp           Offset: 00000f80H  Code and data size: 2cH
+  HEXDECP         
+
+word16            Offset: 00001050H  Code and data size: 24bH
+  WORD16          
+
+hexhexa           Offset: 00001450H  Code and data size: 1bH
+  HEXHEXA         
+
+printb            Offset: 000014f0H  Code and data size: fH
+  PRINTB          
+
+printw            Offset: 00001590H  Code and data size: eH
+  PRINTW          
+
+absr              Offset: 00001620H  Code and data size: 83H
+  ABSR            
+
+absw              Offset: 00001770H  Code and data size: 83H
+  ABSW            
+
+movsb0            Offset: 000018c0H  Code and data size: aH
+  MOVSB0          
+
+print0            Offset: 00001950H  Code and data size: 10H
+  print0          
+
+hex2decb          Offset: 000019f0H  Code and data size: 27H
+  hex2decb        
+
+hex2decw          Offset: 00001ab0H  Code and data size: 34H
+  hex2decw        
+
+hex2decd          Offset: 00001b70H  Code and data size: 49H
+  hex2decd        
+
+dir               Offset: 00001c50H  Code and data size: 241H
+  dir             
+
+key               Offset: 00001f30H  Code and data size: bH
+  key             
+
+set               Offset: 00001fc0H  Code and data size: 29H
+  set             
+
+next              Offset: 00002070H  Code and data size: dH
+  next            

@@ -1,0 +1,286 @@
+組合語言指令介紹
+
+MOV  目的，來源
+動作：將來源資料複製到目的
+ 
+MOVZX  目的，來源
+動作：將8bit的資料複製到目的變成16bit，即加倍bit後複製
+ 
+MOVSX  目的，來源
+動作：同上，不過此為有負號的
+ 
+XCHG  參數１，參數２
+動作：將參數１與參數２的內含值對調
+ 
+PUSH  來源
+動作：將來源資料放入堆疊記憶體，即將來源放入SS:[SP-2]然後SP減２
+ 
+POP  目的
+動作：從堆疊取出資料放入目的，即SP加２後取出SS:[SP-2]的資料放到目的
+ 
+PUSHA
+動作：PUSH  ax,cx,dx,bx,sp,bp,si,di
+ 
+POPA
+動作：POP  di,si,bp,sp,bx,dx,cx,ax
+ 
+PUSHAD
+動作：eax,ecx,edx,ebx,esp,ebp,esi,edi
+ 
+POPAD
+動作：edi,esi,ebp,esp,ebx,edx,ecx,eax
+ 
+XLAT 
+動作：取出DS:[BX+AL]放入AL
+ 
+LEA  暫存器，記憶體
+動作：讓暫存器指向指定的記憶體位址，此時暫存器的內容為該記憶體的位址，而非記憶體的內含值
+ 
+LDS  暫存器，記憶體變數名
+動作：[記憶體]存到暫存器，[記憶體+2]存到DS
+ 
+LES  暫存器，記憶體變數名
+動作：[記憶體]存到暫存器，[記憶體+2]存到ES
+ 
+LSS  暫存器，記憶體變數名
+動作：[記憶體]存到暫存器，[記憶體+2]存到SS
+ 
+LFS  暫存器，記憶體變數名
+動作：[記憶體]存到暫存器，[記憶體+2]存到FS
+ 
+LGS  暫存器，記憶體變數名
+動作：[記憶體]存到暫存器，[記憶體+2]存到GS
+ 
+MOVSB，MOVSW，MOVSD
+動作：複製DS:[SI]至ES:[DI]單位為1/2/4 bytes，複製後SI及DI的值加1/2/4
+ 
+CMPSB，CMPSW，CMPSD
+動作：比較DS:[SI]與ES:[DI]單位為1/2/4 bytes，比較後SI及DI的值加1/2/4
+ 
+STOSB，STOSW，STOSD
+動作：複製DS:[SI]至AL/AX/EAX，複製後SI加1/2/4
+ 
+SCASB，SCASW，SCASD
+動作：比較ES:[DI]與AL/AX/EAX，比較後DI加1/2/4
+ 
+LODSB，LODSW，LODSD
+動作：複製DS:[SI]至AL/AX/EAX，複製後SI日1/2/4
+　
+ADD  目的，來源
+動作：目的＝目的＋來源
+ACD  目的，來源
+動作：目的＝目的＋來源＋C旗標
+　
+INC  運算元
+動作：運算元＝運算元＋１
+　
+SUB  目的，來源
+動作：目的＝目的－來源
+　
+SBB
+動作：目的＝目的－來源－C旗標
+　
+DEC
+動作：運算元＝運算元－１
+　
+CMP 目的，來源
+動作：兩者比較，相當於目的減來源，但只回應至旗標
+　
+MUL  目的
+動作：AL/AX/EAX乘以目的，結果放至AX/DX:AX/EDX:EAX
+　
+IMUL  目的
+動作：有號的AL/AX/EAX乘以有號的目的，結果放至AX/DX:AX/EDX:EAX
+　
+IMUL  目的，來源
+動作：有號的來源乘以有號的目的，結果放至X/DX:AX/EDX:EAX
+IMUL  目的，來源，立即值
+動作：有號的來源乘以立即值，結果放至目的
+　
+DIV  來源
+動作：AX/DX:AX/EDX:EAX除以來源，商放入AL/AX/EAX，餘數放入AH/DX/EDX
+AL是商，AH是餘數。
+如果被除數超過 65535，除數超過 255 的話，商 AX，餘數 DX
+
+IDIV
+動作：有號的AX/DX:AX/EDX:EAX除以來源，商放入AL/AX/EAX，餘數放入AH/DX/EDX
+　
+CBW
+動作：把AL轉成有號數AX
+　
+CWD
+動作：把AX轉成有號數DX:AX
+　
+CWDE
+動作：把AX轉成有號數EAX
+　
+CDQ
+動作：把EAX轉成有號數EDX:EAX
+　
+AND  目的，來源
+動作：目的＝目的  and  來源
+　
+OR  目的，來源
+動作：目的＝目的  or  來源
+　
+XOR  目的，來源
+動作：目的＝目的  xor  來源
+　
+TEST  目的，來源
+動作：會做與 and 相同的動作，但只回應至旗標
+　
+NOT  運算元
+動作：運算元＝not  運算元
+　
+BT  目的，來源
+動作：n＝來源，取出目的的第n個bit，放入C旗標
+　
+BTC  目的，來源
+動作：n＝來源，取出目的的第n個bit，放入C旗標，not 目的的第n個bit
+　
+BTR  目的，來源
+動作：n＝來源，取出目的的第n個bit，放入C旗標，目的的第n個bit歸0
+　
+BTS  目的，來源
+動作：n＝來源，取出目的的第n個bit，放入C旗標，目的的第n個bit設1
+　
+BSF  目的，來源
+動作：搜尋來源，由低往高bit搜尋，第一個 bit n = 1時，n放入目的
+　
+BSR  目的，來源
+動作：搜尋來源，由高往低bit搜尋，第一個 bit n = 1時，n放入目的
+　
+CLC
+動作：設 C 旗標＝0
+　
+STC
+動作：設 C 旗標＝1
+　
+CMC
+動作：not C 旗標
+　
+CLD
+動作：設 D 旗標＝0
+　
+STD
+動作：設 D 旗標＝1
+　
+CLI
+動作：設 I 旗標＝0
+　
+STI
+動作：設 I 旗標＝1
+　
+LAHF
+動作：旗標暫存器的 bit0~bit7 的內容存入 AH
+　
+SAHF
+動作：將AH存入旗標暫存器的 bit0~bit7
+　
+NEG  運算元
+動作：not 運算元的最高bit
+　
+SHR  目的，CL
+動作：將目的所有bit右移CL格，bit7補0，bit0放入C旗標
+　
+SHL  目的，CL
+動作：將目的所有bit左移CL格，bit0補0，bit7放入C旗標
+　
+SAR  目的，CL
+動作：將目的所有bit除了bit7不變，其餘右移CL格，bit0放入C旗標
+　
+SAL  目的，CL
+動作：將目的所有bit左移CL格，bit0補0，bit7放入C旗標
+　
+ROR  目的，CL
+動作：將目的所有bit右旋CL格，即bit7會因右移到bit0及C旗標
+　
+ROL  目的，CL
+動作：將目的所有bit左旋CL格，即bit0會因左移到bit7及C旗標
+　
+RCR  目的，CL
+動作：將目的所有bit包含C旗標，全部右旋CL格
+　
+RCL  目的，CL
+動作：將目的所有bit包含C旗標，全部左旋CL格
+　
+JMP  位址
+動作：跳躍至指定位址
+　
+Jxx  位址
+動作：條件式跳躍
+　
+AAA
+動作：將加法完後的AL換算成十進制，十位數加入AH，個位數放入AL
+　
+AAS
+動作：將減法完後的AL換算成十進制，十位數從AH減，個位數放入AL
+　
+DAA
+動作：將加法完後的AL換算成十進制，十位數加入AL高bit，個位數放入AL低bit
+　
+DAS
+動作：將減法完後的AL換算成十進制，十位數從AL高bit減，個位數放入AL低bit
+　
+AAM
+動作：將乘法完後的AL換算成十進制，十位數加入AH，個位數放入AL
+　
+AAD
+動作：將除法完後的AL換算成十進制，十位數從AH減，個位數放入AL
+　
+CALL  位址
+動作：呼叫指定位址的副程式
+　
+RET  返回
+動作：副程式結束，返回，即 pop ip
+　
+RETF  立即值
+動作：遠程副程式結束，返回，即 pop cs 然後 pop ip
+　
+INT  中斷號碼
+動作：呼叫中斷副程式
+　
+IRET
+動作：中斷副程式結束，返回
+　
+INTO
+動作：假如O旗標＝1，則執行 int 04h
+　
+LOOP，LOOPZ，LOOPNZ  位址
+動作：假如 CX>1，Z=1，Z=0 時，跳躍至指定位址，且CX值減1
+　
+REP，REPZ，REPNZ  搬移指令(movs/cmps/stas/scas)
+動作：假如 CX>1，Z=1，Z=0 時，重複執行搬移指令，且CX值減1
+　
+IN  目的(AL/AX)，來源(DX)
+動作：從來源port，輸入資料至 AL/AX
+　
+OUT  目的(DX)，來源(AL/AX)
+動作：將一資料，輸出至目的port
+　
+INSB，INSW，INSD
+動作：將 port dx 輸入至 ES:[DI]
+　
+OUTSB，OUTSW，OUTSD
+動作：將 DS:[SI] 輸出至 port dx
+
+指令名稱    意    義
+      ---------   -------------------------
+      JL (JNGE)   小於時跳躍 (不大於等於)
+      JG (JNLE)   大於時跳躍 (不小於等於)
+      JLE (JNG)   小於或等於時跳躍 (不大於)
+      JGE (JNL)   大於或等於時跳躍 (不小於)
+      JE          等於時跳躍
+      JNE         不等於時跳躍
+
+
+      表 6.4 無號整數比較的條件跳躍指令表
+
+      指令名稱    意    義
+      ---------   -------------------------
+      JB (JNAE)   低於時跳躍 (不高或等於)
+      JA (JNBE)   高於時跳躍 (不低或等於)
+      JBE (JNA)   低於或等於時跳躍 (不高於)
+      JAE (JNB)   高於或等於時跳躍 (不低於)
+      JE          等於時跳躍
+      JNE         不等於時跳躍

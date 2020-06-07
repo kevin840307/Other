@@ -1,0 +1,12 @@
+code SEGMEBT
+	ASSUME cs:code,ds:code
+	ORG	100h
+start: jum begin
+msg DB 'hello word !!$'
+begin: mov dx, OFFSET msg
+	mov ah,9
+	int 21h
+	mov ax,4c00h
+	int 21h
+code ENDS
+	END	start

@@ -1,0 +1,18 @@
+D:\Visual Studio 2015\Project\GradientView\GradientView\bin\Debug\GradientView.exe.config
+D:\Visual Studio 2015\Project\GradientView\GradientView\obj\Debug\GradientView.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2015\Project\GradientView\GradientView\obj\Debug\GradientView.Form1.resources
+D:\Visual Studio 2015\Project\GradientView\GradientView\obj\Debug\GradientView.Properties.Resources.resources
+D:\Visual Studio 2015\Project\GradientView\GradientView\obj\Debug\GradientView.csproj.GenerateResource.Cache
+D:\Visual Studio 2015\Project\GradientView\GradientView\bin\Debug\GradientView.exe
+D:\Visual Studio 2015\Project\GradientView\GradientView\bin\Debug\GradientView.pdb
+D:\Visual Studio 2015\Project\GradientView\GradientView\obj\Debug\GradientView.exe
+D:\Visual Studio 2015\Project\GradientView\GradientView\obj\Debug\GradientView.pdb
+D:\GitHub\Other\GradientView\GradientView\bin\Debug\GradientView.exe.config
+D:\GitHub\Other\GradientView\GradientView\obj\Debug\GradientView.exe
+D:\GitHub\Other\GradientView\GradientView\obj\Debug\GradientView.pdb
+D:\GitHub\Other\GradientView\GradientView\bin\Debug\GradientView.exe
+D:\GitHub\Other\GradientView\GradientView\bin\Debug\GradientView.pdb
+D:\GitHub\Other\GradientView\GradientView\obj\Debug\GradientView.csprojResolveAssemblyReference.cache
+D:\GitHub\Other\GradientView\GradientView\obj\Debug\GradientView.Form1.resources
+D:\GitHub\Other\GradientView\GradientView\obj\Debug\GradientView.Properties.Resources.resources
+D:\GitHub\Other\GradientView\GradientView\obj\Debug\GradientView.csproj.GenerateResource.Cache

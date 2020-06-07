@@ -1,0 +1,22 @@
+D:\services6\RandomProgram\RandomProgram\bin\Release\RandomProgram.exe.config
+D:\services6\RandomProgram\RandomProgram\obj\Release\RandomProgram.csproj.ResolveComReference.cache
+D:\services6\RandomProgram\RandomProgram\bin\Release\RandomProgram.exe
+D:\services6\RandomProgram\RandomProgram\bin\Release\RandomProgram.pdb
+D:\services6\RandomProgram\RandomProgram\obj\Release\RandomProgram.csprojResolveAssemblyReference.cache
+D:\services6\RandomProgram\RandomProgram\obj\Release\RandomProgram.Form1.resources
+D:\services6\RandomProgram\RandomProgram\obj\Release\RandomProgram.Properties.Resources.resources
+D:\services6\RandomProgram\RandomProgram\obj\Release\RandomProgram.csproj.GenerateResource.Cache
+D:\services6\RandomProgram\RandomProgram\obj\Release\RandomProgram.exe
+D:\services6\RandomProgram\RandomProgram\obj\Release\RandomProgram.pdb
+D:\services6\RandomProgram - 複製\RandomProgram\bin\Release\RandomProgram.exe.config
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Release\RandomProgram.csproj.ResolveComReference.cache
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Release\RandomProgram.exe
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Release\RandomProgram.pdb
+D:\services6\RandomProgram - 複製\RandomProgram\bin\Release\RandomProgram.exe
+D:\services6\RandomProgram - 複製\RandomProgram\bin\Release\RandomProgram.pdb
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Release\RandomProgram.csprojResolveAssemblyReference.cache
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Release\RandomProgram.Form1.resources
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Release\RandomProgram.Properties.Resources.resources
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Release\RandomProgram.ShowWordContent.resources
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Release\RandomProgram.csproj.GenerateResource.Cache
+D:\services6\RandomProgram\RandomProgram\obj\Release\RandomProgram.ShowWordContent.resources

@@ -1,0 +1,33 @@
+D:\VisualStudio\VisualStudioProject\RandomProgram\RandomProgram\bin\Debug\RandomProgram.exe.config
+D:\VisualStudio\VisualStudioProject\RandomProgram\RandomProgram\bin\Debug\RandomProgram.exe
+D:\VisualStudio\VisualStudioProject\RandomProgram\RandomProgram\bin\Debug\RandomProgram.pdb
+D:\VisualStudio\VisualStudioProject\RandomProgram\RandomProgram\obj\Debug\RandomProgram.csprojResolveAssemblyReference.cache
+D:\VisualStudio\VisualStudioProject\RandomProgram\RandomProgram\obj\Debug\RandomProgram.Form1.resources
+D:\VisualStudio\VisualStudioProject\RandomProgram\RandomProgram\obj\Debug\RandomProgram.Properties.Resources.resources
+D:\VisualStudio\VisualStudioProject\RandomProgram\RandomProgram\obj\Debug\RandomProgram.csproj.GenerateResource.Cache
+D:\VisualStudio\VisualStudioProject\RandomProgram\RandomProgram\obj\Debug\RandomProgram.exe
+D:\VisualStudio\VisualStudioProject\RandomProgram\RandomProgram\obj\Debug\RandomProgram.pdb
+D:\services6\RandomProgram\RandomProgram\bin\Debug\RandomProgram.exe.config
+D:\services6\RandomProgram\RandomProgram\obj\Debug\RandomProgram.exe
+D:\services6\RandomProgram\RandomProgram\obj\Debug\RandomProgram.pdb
+D:\services6\RandomProgram\RandomProgram\bin\Debug\RandomProgram.exe
+D:\services6\RandomProgram\RandomProgram\bin\Debug\RandomProgram.pdb
+D:\services6\RandomProgram\RandomProgram\obj\Debug\RandomProgram.csproj.ResolveComReference.cache
+D:\services6\RandomProgram\RandomProgram\obj\Debug\RandomProgram.Form1.resources
+D:\services6\RandomProgram\RandomProgram\obj\Debug\RandomProgram.Properties.Resources.resources
+D:\services6\RandomProgram\RandomProgram\obj\Debug\RandomProgram.csproj.GenerateResource.Cache
+D:\services6\RandomProgram\RandomProgram\obj\Debug\RandomProgram.ShowWordContent.resources
+D:\services6\RandomProgram - 複製\RandomProgram\bin\Debug\RandomProgram.exe.config
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Debug\RandomProgram.csproj.ResolveComReference.cache
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Debug\RandomProgram.exe
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Debug\RandomProgram.pdb
+D:\services6\RandomProgram - 複製\RandomProgram\bin\Debug\RandomProgram.exe
+D:\services6\RandomProgram - 複製\RandomProgram\bin\Debug\RandomProgram.pdb
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Debug\RandomProgram.Form1.resources
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Debug\RandomProgram.Properties.Resources.resources
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Debug\RandomProgram.ShowWordContent.resources
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Debug\RandomProgram.csproj.GenerateResource.Cache
+D:\services6\RandomProgram - 複製\RandomProgram\obj\Debug\RandomProgram.csprojResolveAssemblyReference.cache
+D:\services6\RandomProgram\RandomProgram\obj\Debug\RandomProgram.csprojResolveAssemblyReference.cache
+D:\VisualStudio\VisualStudioProject\RandomProgram\RandomProgram\obj\Debug\RandomProgram.csproj.ResolveComReference.cache
+D:\VisualStudio\VisualStudioProject\RandomProgram\RandomProgram\obj\Debug\RandomProgram.ShowWordContent.resources

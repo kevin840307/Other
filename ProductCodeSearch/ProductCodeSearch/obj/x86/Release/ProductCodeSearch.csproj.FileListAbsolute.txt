@@ -1,0 +1,9 @@
+C:\Users\Ghost\documents\visual studio 2013\Projects\ProductCodeSearch\ProductCodeSearch\bin\x86\Release\ProductCodeSearch.exe.config
+C:\Users\Ghost\documents\visual studio 2013\Projects\ProductCodeSearch\ProductCodeSearch\bin\x86\Release\ProductCodeSearch.exe
+C:\Users\Ghost\documents\visual studio 2013\Projects\ProductCodeSearch\ProductCodeSearch\obj\x86\Release\ProductCodeSearch.csprojResolveAssemblyReference.cache
+C:\Users\Ghost\documents\visual studio 2013\Projects\ProductCodeSearch\ProductCodeSearch\obj\x86\Release\ProductCodeSearch.ProductEdit.resources
+C:\Users\Ghost\documents\visual studio 2013\Projects\ProductCodeSearch\ProductCodeSearch\obj\x86\Release\ProductCodeSearch.ProductForm.resources
+C:\Users\Ghost\documents\visual studio 2013\Projects\ProductCodeSearch\ProductCodeSearch\obj\x86\Release\ProductCodeSearch.Properties.Resources.resources
+C:\Users\Ghost\documents\visual studio 2013\Projects\ProductCodeSearch\ProductCodeSearch\obj\x86\Release\ProductCodeSearch.csproj.GenerateResource.Cache
+C:\Users\Ghost\documents\visual studio 2013\Projects\ProductCodeSearch\ProductCodeSearch\obj\x86\Release\ProductCodeSearch.exe
+C:\Users\Ghost\documents\visual studio 2013\Projects\ProductCodeSearch\ProductCodeSearch\obj\x86\Release\ProductCodeSearch.ProductInsert.resources
