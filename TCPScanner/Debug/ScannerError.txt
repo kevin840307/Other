@@ -1,0 +1,15 @@
+Year¡G2016 Month¡G12 Day¡G26 Time¡G20:25:53
+IP Value Error¡G ip: '1231'
+IP Value Error¡G error value: '1231'
+
+
+Year¡G2017 Month¡G1 Day¡G4 Time¡G20:29:1
+IP Value Error¡G ip: '13213'
+IP Value Error¡G error value: '13213'
+
+
+Year¡G2017 Month¡G1 Day¡G4 Time¡G20:29:28
+Port Value Error¡G k_iStartPort: '600000'
+Port Value Error¡G k_iEndPort: '1'
+
+

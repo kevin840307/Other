@@ -1,0 +1,97 @@
+Year¡G2016 Month¡G12 Day¡G24 Time¡G20:7:51
+IP Value Error¡G ip : 1232.1.1.1  error value : 1232
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G20:43:54
+IP Value Error¡G ip: '13213.1.1.1'
+IP Value Error¡G error value: '13213'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G20:44:37
+IP Value Error¡G ip: '13213'
+IP Value Error¡G error value: '13213'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G20:46:46
+IP Value Error¡G ip: '12312'
+IP Value Error¡G error value: '12312'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G20:47:49
+IP Value Error¡G ip: '1312'
+IP Value Error¡G error value: '1312'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G20:48:35
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G20:48:57
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G20:51:32
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G20:52:14
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G20:53:30
+IP Value Range Error¡G ip: '123'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:19:51
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:20:11
+IP Value Error¡G ip: '127.0.12321.1'
+IP Value Error¡G error value: '12321'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:21:28
+IP Value Error¡G ip: '1313'
+IP Value Error¡G error value: '1313'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:21:51
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:22:4
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:22:20
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:23:50
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:25:40
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:26:39
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:30:7
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:30:43
+IP Value Range Error¡G ip: '1.1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:32:31
+IP Value Range Error¡G ip: '1'
+
+Year¡G2016 Month¡G12 Day¡G24 Time¡G23:32:42
+IP Value Range Error¡G ip: '123.1.1.1.1'
+
+Year¡G2016 Month¡G12 Day¡G25 Time¡G13:34:19
+IP Value Error¡G ip: '1231.1.1.1'
+IP Value Error¡G error value: '1231'
+
+Year¡G2016 Month¡G12 Day¡G25 Time¡G13:35:11
+IP Value Error¡G ip: '1233'
+IP Value Error¡G error value: '1233'
+
+Year¡G2016 Month¡G12 Day¡G25 Time¡G19:33:39
+IP Value Range Error¡G ip: '123'
+
+Year¡G2016 Month¡G12 Day¡G26 Time¡G0:26:28
+IP Value Error¡G ip: '1313.1.1.1'
+IP Value Error¡G error value: '1313'
+
+Year¡G2016 Month¡G12 Day¡G26 Time¡G0:29:9
+IP Value Range Error¡G ip: '1321.1.1.1'
+
+Year¡G2016 Month¡G12 Day¡G26 Time¡G0:37:43
+IP Value Error¡G ip: '12312.1.1.1'
+IP Value Error¡G error value: '12312'
+
